@@ -1,7 +1,8 @@
+awry = []
 def my_collect(array)
  while array.length>0
   yield
-   array.collect {|string| string.upcase}
-  
+   awry<< array.each {|string| string.upcase}
  end
+ return
 end
