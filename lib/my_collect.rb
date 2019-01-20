@@ -4,5 +4,5 @@ def my_collect(array)
   yield
    awry<< array.each {|string| string.upcase}
  end
- return
+ return awry
 end
