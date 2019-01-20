@@ -1,5 +1,5 @@
 
- my_collect(array) do
+def my_collect(array)
  while array.length>0
   yield
     array.each {|string| string.upcase}
