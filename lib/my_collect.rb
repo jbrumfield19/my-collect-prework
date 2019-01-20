@@ -5,3 +5,4 @@ def my_collect(array)
     array.each {|string| string.upcase}
  end
 end
+my_collect(array)
